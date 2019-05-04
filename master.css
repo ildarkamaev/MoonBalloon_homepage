@@ -1,0 +1,32 @@
+body{
+    background: #1f2730;
+}
+
+
+#logo{
+    width: 8rem;
+    height: auto;
+}
+
+nav{
+    opacity: 0.9;
+}
+
+header{
+    min-height: 100vh;
+    padding-top: 26rem;
+    background: url(pics/jumbo.jpg) no-repeat center center fixed; 
+    background-size: cover;
+}
+
+.about, .contact{
+    margin: 8rem;
+}
+
+.aboutItems{
+    margin: 18rem 0rem;
+}
+
+.pricelist{
+    margin-bottom: 16rem;
+}
