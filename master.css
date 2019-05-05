@@ -15,7 +15,7 @@ nav{
 header{
     min-height: 100vh;
     padding-top: 26rem;
-    background: url(pics/bg.jpg) no-repeat center center fixed; 
+    background: url(pics/MoonBalloon157.jpg) no-repeat center center fixed; 
     background-size: cover;
 }
 
@@ -40,6 +40,11 @@ header h1{
 
 .aboutItems{
     padding: 4rem 0;
+}
+
+.aboutItems img{
+    max-width: 32rem;
+    height: auto;
 }
 
 .pricelist{
