@@ -9,24 +9,47 @@ body{
 }
 
 nav{
-    opacity: 0.9;
+    opacity: 0.7;
 }
 
 header{
     min-height: 100vh;
     padding-top: 26rem;
-    background: url(pics/jumbo.jpg) no-repeat center center fixed; 
+    background: url(pics/bg.jpg) no-repeat center center fixed; 
     background-size: cover;
 }
 
 .about, .contact{
     margin: 8rem;
+    line-height: 2rem;
 }
 
 .aboutItems{
-    margin: 18rem 0rem;
+    padding: 4rem 0;
 }
 
 .pricelist{
-    margin-bottom: 16rem;
+    margin-bottom: 10rem;
+    line-height: 2rem;
 }
+
+#prices p{
+    line-height: 2rem;
+}
+
+#contact p{
+    line-height: 2rem;
+}
+
+[data-scroll] {
+    transition: opacity 1s;
+}
+
+[data-scroll="in"] {
+    opacity: 1;
+}
+
+[data-scroll="out"] {
+    opacity: 0;
+}
+  
