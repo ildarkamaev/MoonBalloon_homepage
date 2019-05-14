@@ -1,26 +1,24 @@
-body{
+body {
     background: #1f2730;
 }
 
-
-#logo{
+#logo {
     width: 8rem;
     height: auto;
 }
 
-nav{
+nav {
     opacity: 0.6;
 }
 
-
-header{
+header {
     min-height: 100vh;
     padding-top: 26rem;
-    background: url(pics/MoonBalloon160.jpg) no-repeat center center fixed; 
+    background: url(pics/MoonBalloon160.jpg) no-repeat center center fixed;
     background-size: cover;
 }
 
-header .dark-overlay{
+header .dark-overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -29,47 +27,10 @@ header .dark-overlay{
     background: rgba(0, 0, 0, 0.6);
 }
 
-
-header h1{
-    margin-top: 30rem;
+header h1 {
+    margin-top: 26rem;
 }
 
-.about, .contact{
-    margin: 8rem;
-    line-height: 2rem;
+.footer {
+    margin-top: 6rem;
 }
-
-.aboutItems{
-    padding: 4rem 0;
-}
-
-.aboutItems img{
-    max-width: 32rem;
-    height: auto;
-}
-
-.pricelist{
-    margin-bottom: 10rem;
-    line-height: 2rem;
-}
-
-#prices p{
-    line-height: 2rem;
-}
-
-#contact p{
-    line-height: 2rem;
-}
-
-[data-scroll] {
-    transition: opacity 1s;
-}
-
-[data-scroll="in"] {
-    opacity: 1;
-}
-
-[data-scroll="out"] {
-    opacity: 0;
-}
-  
